@@ -1,0 +1,5 @@
+#4E1A3D
+#C0F0F7
+#FFD51E
+
+Fonts: Nexa Slab
