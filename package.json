@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "@prisma/client": "^5.8.0",
+    "jose": "^5.2.0",
     "next": "14.0.4",
+    "nodemailer": "^6.9.8",
     "prisma": "^5.8.0",
     "react": "^18",
     "react-dom": "^18"
