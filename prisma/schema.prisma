@@ -13,7 +13,7 @@ datasource db {
 model brands {
   id         Int        @id @default(autoincrement())
   brandName  String     @unique @db.VarChar(50)
-  brandImage String     @db.VarChar(350)
+  brandImage String     @db.VarChar(1000)
   createdAt  DateTime   @default(now()) @db.Timestamp(0)
   updatedAt  DateTime   @default(now()) @updatedAt @db.Timestamp(0)
   products   products[]
