@@ -8,7 +8,7 @@ export async function middleware(req, res) {
 
         const reqHeader = new Headers(req.headers);
         reqHeader.set('email'.payload['email']);
-        reqHeader.set('email'.payload['id']);
+        reqHeader.set('id'.payload['id']);
 
         return NextResponse.next({
             request: {
